@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Archivo:wght@200&family=Capriola&family=Changa+One:ital@0;1&family=Jost&family=Lexend&family=Prata&family=Public+Sans:wght@100;300&family=Syne:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@200&family=Capriola&family=Changa+One:ital@0;1&family=Jost&family=Lexend&family=Prata&family=Public+Sans:wght@100;300&family=Syne:wght@500&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 70px;
+    font-size: 110%;
+}
+
+.logo img {
+    max-height: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 40px;
+    
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+.fil {
+    color: #444444;
+
+}
+.fil:hover {
+    color:#4c00b6
+}
+
+
+
+.card-container {
+    display: flex;
+    margin: 40px;
+    margin-top: 6%;
+    margin-left: 22%;
+    
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px 4px;
+    margin-top: 15px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+
+
+.card img {
+    max-width: 200px;
+    height: 200px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-radius: 4px;
+}
+
+.card-content {
+    padding: 9px;
+}
+
+.card-content h2 {
+    text-decoration: none;
+    font-size: 18px ;
+    margin: 0;
+    color: #444444;
+    font-family: 'Anton', sans-serif;
+
+}
+
+
+.card  {
+    text-decoration: none;
+}
+
+
+.contact {
+    border: 2px solid #37FF8D;
+    border-radius: 22px;
+    color: #ffffff;
+    padding: 10px 20px;
+    background-color: #37FF8D;
+}
+
+.contact:hover {
+    background-color: #ffffff;
+    color: #f6ae1f;
+}
+
+
+
+
+.contact {
+    border: 2px solid #f6ae1f;
+    border-radius: 22px;
+    color: #ffffff;
+    padding: 15px 25px;
+    background-color: #f6ae1f;
+}
+
+.contact:hover {
+    background-color: #ffffff;
+    color: #f6ae1f;
+}
+h1{
+color: #292929;
+font-family: 'Anton', sans-serif;
+font-size: 400%;} 
+
+button {
+padding: 20px 30px;
+    font-size: 20px;
+    font-weight: bold;
+
+    text-align: center;
+    text-decoration: none;
+    background-color: #f6ae1f; /* Couleur bleue de LinkedIn */
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 10px;}
+
+  
+    .sec8{ 
+     position: relative;
+     top: 22%;
+        height: 13%; 
+        width: 100%;
+        background-color: #171717;
+        display: flex;
+        flex-direction: row;
+        font-family: 'Abel', sans-serif;
+    }
+  
+  
+    .sec8 p{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 20%;
+        left: 2%;
+      }
+  
+      .sec8 .date{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 20%;
+        left: 82%;}
+  
+      
+      
