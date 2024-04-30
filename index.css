@@ -626,8 +626,8 @@ margin-bottom: -2cm;  }
     text-align: center;
     margin-top: 20px;
     position: absolute;
-    top: 40%;
-    left: 37%;
+    top: 45%;
+    left: 47%;
 }
 
 .visit-button {
@@ -642,6 +642,7 @@ margin-bottom: -2cm;  }
     color: #fff;
     border-radius: 5px;
     margin: 0 10px;
+   
 }
 
 .portfolio-button {
@@ -655,8 +656,15 @@ margin-bottom: -2cm;  }
     color: #fff;
     border-radius: 5px;
     margin: 0 10px;
+    
 }
 
+.conteneurhand{
+    position: absolute;
+left: 17%;
+top: 8%;
+    
+}
 
 .sec7 h1 { 
 font-family: 'Anton', sans-serif;
@@ -667,3 +675,4 @@ color: #292929;
 letter-spacing: 0.1cm;
 
 }
+
