@@ -131,7 +131,7 @@ body {
     text-decoration: none;
     position: absolute;
     top: 68%;
-    left: 46%;
+    left: 48%;
 }
 
 .cv:hover {
@@ -321,7 +321,7 @@ body {
 
   .carte {
    
-    margin-left: 23%;
+    margin-left: 26%;
     width: 20cm;
     height: 3cm;
     border: 1px solid #f2f2f2;
