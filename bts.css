@@ -88,6 +88,7 @@ h1{
 .text{
     position: absolute;
     top: 34%;
+    left: 12%;
     font-family: 'Abel', sans-serif;
     margin: 3%;
     font-size: 130%;
