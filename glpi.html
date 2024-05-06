@@ -82,6 +82,81 @@ body {
 
 </center>
 
+<div class="progress-container">
+
+        <div class="skill">
+          <h2>Gestion des incidents  </h2>
+          <div class="progress-bar" id="html-bar"></div>
+        </div>
+    
+        <div class="skill">
+          <h2>Mettre en place et vérifier les niveaux d'habilitation</h2>
+          <div class="progress-bar" id="css-bar"></div>
+        </div>
+    
+        
+       
+
+
+
+</section>
+
+<script>document.addEventListener("DOMContentLoaded", function () {
+  animateProgressBar("html-bar", 70); // Example: HTML proficiency is 80%
+  animateProgressBar("css-bar", 70);
+
+
+
+});
+
+function animateProgressBar(barId, percentage) {
+  const progressBar = document.getElementById(barId);
+  const fill = document.createElement("div");
+  fill.classList.add("progressBarFill");
+  fill.style.width = percentage + "%";
+  progressBar.appendChild(fill);
+}
+</script>
+ 
+
+<style>
+     .progress-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 0%;
+    top: -6%;
+  }
+  
+  .skill {
+    text-align:left ;
+margin-bottom: -0.6cm;  }
+  
+  .progress-bar {
+    width: 15cm;
+    height: 0.4cm;
+    margin: 7px 0;
+    background-color: rgb(243, 243, 243);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .progressBarFill {
+    height: 100%;
+    background-color: #fdac2a;
+    animation: progressAnimation 2s ease-in-out;
+  }
+  
+  @keyframes progressAnimation {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+</style>
 
 <style>
 .lesimages {
