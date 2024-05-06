@@ -11,28 +11,42 @@
 </head>
 <body>
 
-    <nav class="navbar">
+         <nav class="navbar">
         <div class="logo">
-            <img src="vero.png" alt="Logo">
+            <img src="vero.png" alt="Logo" >
         </div>
         <ul class="nav-links">
-            <li><a class="fil" href="index.html">Accueil</a></li>
+
+            <li><a class="fil" href="index.html">Acceuil</a></li>
             <li><a class="fil" href="bts.html">BTS</a></li>
-            <li><a class="fil" href="veille.html">Veille technologique</a></li>
+            <li><a class="fil" href="projet.html">Projet</a></li>
+
+            <li><a class="fil" href="veille.html">veille technologique</a></li>
+
             
             <li><a class="contact" href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Archivo:wght@200&family=Capriola&family=Changa+One:ital@0;1&family=Jost&family=Lexend&family=Prata&family=Public+Sans:wght@100;300&family=Syne:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@200&family=Capriola&family=Changa+One:ital@0;1&family=Jost&family=Lexend&family=Prata&family=Public+Sans:wght@100;300&family=Syne:wght@500&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
 
 .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 30px 70px;
-            background-color: rgba(255, 255, 255, 0.0);
-        }
+    background-color: #ffffff8b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 70px;
+    font-size: 110%;
+}
+
 .logo img {
     max-height: 40px;
 }
@@ -57,30 +71,37 @@
     text-decoration: none;
 }
 
-.fil {
-    color: #444444;
-
-}
-.fil:hover {
-    color:#a9a9a9
-}
-
-.contact {
-    border: 2px solid #37FF8D;
+        .contact {
+    border: 2px solid #f6ae1f;
     border-radius: 22px;
     color: #ffffff;
     padding: 15px 25px;
-    background-color: #37FF8D;
+    background-color: #f6ae1f;
 }
 
 .contact:hover {
     background-color: #ffffff;
     color: #f6ae1f;
 }
-
-
-
     </style>
+
+
+
+<center>
+    <div style="width: 20cm; height: 30cm; overflow: auto;">
+        <embed src="snake.pdf" type="application/pdf" width="100%" height="100%" />
+    </div>
+    
+    <br><br><br>
+    
+    
+    </center>
+
+
+
+    
+
+
 
     <center>
     <div style="width: 20cm; height: 30cm; overflow: auto;">
@@ -90,6 +111,84 @@
     <br><br><br>
 
     </center>
+
+    
+
+    <div class="progress-container">
+
+        <div class="skill">
+          <h2>Travail en groupe </h2>
+          <div class="progress-bar" id="html-bar"></div>
+        </div>
+    
+        
+    
+        <div class="skill">
+          <h2>Déployer un jeu</h2>
+          <div class="progress-bar" id="c-bar"></div>
+        </div>
+    </div>
+
+
+
+</section>
+
+<script>document.addEventListener("DOMContentLoaded", function () {
+  animateProgressBar("html-bar", 40); // Example: HTML proficiency is 80%
+  
+  animateProgressBar("c-bar", 90);
+
+
+});
+
+function animateProgressBar(barId, percentage) {
+  const progressBar = document.getElementById(barId);
+  const fill = document.createElement("div");
+  fill.classList.add("progressBarFill");
+  fill.style.width = percentage + "%";
+  progressBar.appendChild(fill);
+}
+</script>
+ 
+
+<style>
+     .progress-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 0%;
+    top: -6%;
+  }
+  
+  .skill {
+    text-align:left ;
+margin-bottom: -0.6cm;  }
+  
+  .progress-bar {
+    width: 15cm;
+    height: 0.4cm;
+    margin: 7px 0;
+    background-color: rgb(243, 243, 243);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .progressBarFill {
+    height: 100%;
+    background-color: #fdac2a;
+    animation: progressAnimation 2s ease-in-out;
+  }
+  
+  @keyframes progressAnimation {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+</style>
 
 
    <style>
