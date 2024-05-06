@@ -7,7 +7,7 @@
 </head>
 <body>
     
-    <nav class="navbar">
+       <nav class="navbar">
         <div class="logo">
             <img src="vero.png" alt="Logo" >
         </div>
@@ -67,6 +67,18 @@ body {
     text-decoration: none;
 }
 
+        .contact {
+    border: 2px solid #f6ae1f;
+    border-radius: 22px;
+    color: #ffffff;
+    padding: 15px 25px;
+    background-color: #f6ae1f;
+}
+
+.contact:hover {
+    background-color: #ffffff;
+    color: #f6ae1f;
+}
     </style>
 
 
@@ -80,6 +92,89 @@ body {
     
     
     </center>
+
+
+
+    
+
+
+
+
+    <div class="progress-container">
+
+        <div class="skill">
+          <h2>Travail en groupe </h2>
+          <div class="progress-bar" id="html-bar"></div>
+        </div>
+    
+        
+    
+        <div class="skill">
+          <h2>Déployer un jeu</h2>
+          <div class="progress-bar" id="c-bar"></div>
+        </div>
+    </div>
+
+
+
+</section>
+
+<script>document.addEventListener("DOMContentLoaded", function () {
+  animateProgressBar("html-bar", 40); // Example: HTML proficiency is 80%
+  
+  animateProgressBar("c-bar", 90);
+
+
+});
+
+function animateProgressBar(barId, percentage) {
+  const progressBar = document.getElementById(barId);
+  const fill = document.createElement("div");
+  fill.classList.add("progressBarFill");
+  fill.style.width = percentage + "%";
+  progressBar.appendChild(fill);
+}
+</script>
+ 
+
+<style>
+     .progress-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 0%;
+    top: -6%;
+  }
+  
+  .skill {
+    text-align:left ;
+margin-bottom: -0.6cm;  }
+  
+  .progress-bar {
+    width: 15cm;
+    height: 0.4cm;
+    margin: 7px 0;
+    background-color: rgb(243, 243, 243);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .progressBarFill {
+    height: 100%;
+    background-color: #fdac2a;
+    animation: progressAnimation 2s ease-in-out;
+  }
+  
+  @keyframes progressAnimation {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+</style>
 
 
     <section class="sec8">
@@ -103,7 +198,7 @@ body {
             left: 82%;}
       
             .sec8{ position: absolute;
-          top: 180%;
+          top: 200%;
           height: 13%; 
           width: 100%;
           background-color: #171717;
