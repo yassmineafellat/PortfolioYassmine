@@ -635,7 +635,7 @@ margin-bottom: -2cm;  }
 
     text-align: center;
     text-decoration: none;
-    background-color: #74ceff; /* Couleur bleue de LinkedIn */
+    background-color: #2f2f2f; /* Couleur bleue de LinkedIn */
     color: #fff;
     border-radius: 5px;
     margin: 0 10px;
@@ -649,7 +649,7 @@ margin-bottom: -2cm;  }
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    background-color: #2f2f2f; /* Couleur bleue standard pour le web */
+    background-color: #f6ae1f; /* Couleur bleue standard pour le web */
     color: #fff;
     border-radius: 5px;
     margin: 0 10px;
